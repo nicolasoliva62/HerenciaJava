@@ -14,8 +14,8 @@ public class EmpleadoPorComision {
     private String primerNombre;
     private String apellidoPaterno;
     private String numeroSeguroSocial;
-    protected double ventasBrutas;
-    protected double tarifaComision;
+    private double ventasBrutas;
+    private double tarifaComision;
 
     public EmpleadoPorComision(String nombre, String apellido, String nss, double ventas, double tarifa) {
         primerNombre = nombre;

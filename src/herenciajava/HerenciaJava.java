@@ -17,10 +17,14 @@ public class HerenciaJava {
     public static void main(String[] args) {
         // TODO code application logic here
         EmpleadoPorComision empleado= new EmpleadoPorComision("Nico","Oliva","12342444",243,0.06);
-        System.out.println(empleado);
+//        System.out.println(empleado);
         EmpleadoBaseMasComisionHerencia e = new EmpleadoBaseMasComisionHerencia("Nico", "Oliva", "213213213",152, 0.5,2500);
         e.setTarifaComision(2);
-        System.out.println(e);
+        
+        Cliente clienteUno = new Cliente(1, "Jose", "Perez","35212455","M",2,"4252223","Marcos Juarez 244");
+        System.out.println(clienteUno.toString());
+        
+//        System.out.println(e);
     }
     
 }
